@@ -1,66 +1,1245 @@
 <!doctype html>
 <html amp lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
-    <title>Social Sharing with amp-social-share</title>
-    <link rel="canonical" href="http://example.ampproject.org/article-metadata.html" />
+    <title>HEALTHKART AMP PAGE</title>
+    <link rel="canonical" href="https://healthkarttesting.github.io" />
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <script type="application/ld+json">
-      {
+    {
         "@context": "http://schema.org",
         "@type": "NewsArticle",
-        "headline": "Open-source framework for publishing content",
+        "author": "Akshit Sawhney",
+        "publisher": {
+    "@type": "Organization",
+    "name": "Healthkart",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://google.com/logo.jpg",
+      "width": 600,
+      "height": 60
+    }
+  },
+        "headline": "Healthkart First AMP Article",
         "datePublished": "2015-10-07T12:02:41Z",
-        "image": [
-          "logo.jpg"
-        ]
+        "dateModified": "2016-09-07T12:02:41Z",
+        "image": {
+    "@type": "ImageObject",
+    "url": "https://google.com/thumbnail1.jpg",
+    "height": 800,
+    "width": 800
+  },
+        "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "http://connect.healthkart.com/"
       }
+    }
     </script>
     <script custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js" async></script>
     <style amp-custom>
-      .social-box {
-        max-width: 300px;
-      }
-      amp-social-share[type="baidu"] {
-        background-color: black;
-        color: #fff;
-        font-size: 32px;
-        text-align: center;
-      }
-      amp-social-share[type="whatsapp"] {
-        background: #25d366;
-        text-align: center;
-        color: #0e5829;
-        font-size: 18px;
-        padding: 10px;
-      }
-    </style>
-    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+          .social-box {
+            max-width: 300px;
+          }
+          amp-social-share[type="baidu"] {
+            background-color: black;
+            color: #fff;
+            font-size: 32px;
+            text-align: center;
+          }
+          amp-social-share[type="whatsapp"] {
+            background: #25d366;
+            text-align: center;
+            color: #0e5829;
+            font-size: 18px;
+            padding: 10px;
+          }
+        </style>
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
+    <noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
     <script async src="https://cdn.ampproject.org/v0.js"></script>
-  </head>
-  <body>
+    </head>
+    <body class="s_layout_fixed html not-front not-logged-in no-sidebars page-node page-node- page-node-5098 node-type-articles tm-0 anon noadmin">
+    <h1>Welcome to the mobile web</h1>
     <h1>Social Share</h1>
 
-    <div class="social-box">
-      <amp-social-share type="email" data-param-subject="Hello World" data-param-body="What's up?"></amp-social-share>
-      <amp-social-share type="facebook"
-                        data-param-text="Hello world"
-                        data-param-href="https://example.com/?ref=URL"
-                        data-param-app_id="145634995501895"></amp-social-share>
+        <div class="social-box">
+          <amp-social-share type="email" data-param-subject="Hello World" data-param-body="What's up?"></amp-social-share>
+          <amp-social-share type="facebook"
+                            data-param-text="Hello world"
+                            data-param-href="https://example.com/?ref=URL"
+                            data-param-app_id="145634995501895"></amp-social-share>
 
-      <amp-social-share type="twitter"></amp-social-share>
-      <amp-social-share type="linkedin" width="108" height="44" layout="fixed"></amp-social-share>
+          <amp-social-share type="twitter"></amp-social-share>
+          <amp-social-share type="linkedin" width="108" height="44" layout="fixed"></amp-social-share>
 
-      <amp-social-share layout="responsive" width="40" height="40" type="baidu"
-                        data-share-endpoint="http://cang.baidu.com/do/add"
-                        data-param-iu="CANONICAL_URL"
-                        data-param-it="TITLE">B</amp-social-share>
 
-      <amp-social-share layout="responsive" width="40" height="40" type="whatsapp"
-                        layout="container"
-                        data-share-endpoint="whatsapp://send"
-                        data-param-text="Check out this article: TITLE - CANONICAL_URL">
-        Share on Whatsapp</amp-social-share>
+          <amp-social-share layout="responsive" width="40" height="40" type="whatsapp"
+                            layout="container"
+                            data-share-endpoint="whatsapp://send"
+                            data-param-text="Check out this article: TITLE - CANONICAL_URL">
+            Share on Whatsapp</amp-social-share>
+        </div>
+    <!-- End Google Tag Manager -->
+    <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
     </div>
-  </body>
-</html>
+    <div id="con-header" class="header">
+    <div class="hkc-header-top-strip hide-mobile">
+    <div class="hts-innerWrapper">
+    <div class="pri-nav">
+    <a class=" referral-tab" href="http://www.healthkart.com?itracker=w:tab|;p:0|;c:healthkart|;">
+    <span class="caption">
+    Shop			</span>
+    </a>
+    <a class=" referral-tab" href="http://consult.healthkart.com?itracker=w:tab|;p:2|;c:consult|;">
+    <span class="caption">
+    Consult			</span>
+    </a>
+    <a class="active referral-tab" href="http://connect.healthkart.com">
+    <span class="caption">
+    Connect			</span>
+    </a>
+    </div>
+    <div class="top-right-nav">
+    <ul>
+    <li class="hide-mobile">
+    <a href="https://play.google.com/store/apps/details?id=com.healthkart.healthkart&amp;hl=en&amp;referrer=utm_source%3Dconnect%26utm_medium%3Dweb">
+    <svg fill="#434343" height="24" viewBox="0 0 24 24" width="24">
+    <path fill="#434343" d="M17 1.01L7 1c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99zM17 19H7V5h10v14z"></path>
+    </svg>
+    <span class="iconCaption">Download App</span>
+    </a>
+    </li>
+    <li class="hide-mobile">
+    <a href="https://healthkart.com/trackorder">
+    <svg fill="#434343" height="24" viewBox="0 0 24 24" width="24">
+    <path fill="#434343" d="M12,2C8,2,4.7,5.3,4.7,9.3S12,22,12,22s7.3-8.7,7.3-12.7S16,2,12,2z M12,14.1c-2.7,0-4.9-2.2-4.9-4.9 c0-2.7,2.2-4.9,4.9-4.9c2.7,0,4.9,2.2,4.9,4.9C16.9,11.9,14.7,14.1,12,14.1z"></path>
+    </svg>
+    <span class="iconCaption">Track Your Order(s)</span>
+    </a>
+    </li>
+    <li class="hide-mobile">
+    <a href="https://healthkart.com/hk/FAQ.action?reftag=return">
+    <svg fill="#434343" height="24" viewBox="0 0 24 24" width="24">
+    <path fill="#434343" d="M12 4V1L8 5l4 4V6c3.31 0 6 2.69 6 6 0 1.01-.25 1.97-.7 2.8l1.46 1.46C19.54 15.03 20 13.57 20 12c0-4.42-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6 0-1.01.25-1.97.7-2.8L5.24 7.74C4.46 8.97 4 10.43 4 12c0 4.42 3.58 8 8 8v3l4-4-4-4v3z"></path>
+    </svg>
+    <span class="iconCaption">14 Day Return Policy</span>
+    </a>
+    </li>
+    <li class="hide-mobile">
+    <a href="http://healthkart.com/hk/ContactUs.action">
+    <svg fill="#434343" height="24" viewBox="0 0 24 24" width="24">
+    <path fill="#434343" d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"></path>
+    </svg>
+    <span class="iconCaption">Contact Us</span>
+    </a>
+    </li>
+    </ul>
+    </div>
+    </div>
+    </div>
+    <div class="hkc-header-middle-strip hide-mobile">
+    <div class="hms-innerWrapper">
+    <div class="connectLogo"><a href="/"></a></div>
+    <div class="search-con">
+    <div class="search">
+    <div class="region region-sidebar-search">
+    <div id="block-search-form" class="block block-search">
+    </div>  </div>
+    </div>
+    </div>
+    <div class="hms-right-nav">
+    <div class="hms-account">
+    <span>
+    <svg fill="#434343" height="24" viewBox="0 0 24 24" width="24">
+    <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"></path>
+    </svg>
+    </span>
+    <span class="iconCaption hms-nav-caption">Account</span>
+    <span class="main-down-arrow acc-arrow"></span>
+    <span class="dropdown-box-hidden"></span>
+    <ul>
+    <li><a href="https://accounts.healthkart.com/auth/Login.action?pre=&amp;pageType=login&amp;redirectUrl=http%3A%2F%2Fconnect.healthkart.com%2Fnode%2F5098&amp;redirectSrc=http%3A%2F%2Fconnect.healthkart.com"><span class="hms-login-btn">Login</span></a></li>
+    <li>New User <a href="https://accounts.healthkart.com/auth/Login.action?pre=&amp;pageType=signUp&amp;redirectUrl=http%3A%2F%2Fconnect.healthkart.com%2Fnode%2F5098&amp;redirectSrc=http%3A%2F%2Fconnect.healthkart.com"><span class="hms-register">Register</span></a></li>
+    </ul>
+    </div>
+    <div class="hms-cart">
+    <span>
+    <svg fill="#434343" height="24" viewBox="0 0 24 24" width="24">
+    <path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"></path>
+    </svg>
+    </span>
+    <span class="iconCaption hms-nav-caption">Cart</span>
+    <span class="dropdown-box-hidden"></span>
+    <ul>
+    <li>
+    <!--<p>Your Cart is Empty!</p>-->
+    <a href="https://healthkart.com/cart/Cart.action"><span class="hms-proceed-to-cart">Proceed to Cart</span></a>
+    </li>
+    </ul>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="hkc-header-bottom-strip normal-user">
+    <div id="page-menu-wrapper">
+    <ul class="mainHeader left no-js">
+    <li>
+    <a href="/blog?itracker=pMenu" class="top-menu ">
+    Blogs							<span class="main-down-arrow"></span>
+    </a>
+    <!-- Sub Menus Starts -->
+    <div class="hbs-child common-visible">
+    <div class="hbs-child-innerWrapper">
+    <ul class="hbs-child-ul">
+    <li class="activeChild">
+    <a href="/blog?primary_tag=Bodybuilding&amp;itracker=pMenu">
+    <span>Body Building</span>
+    </a>
+    <div class="hbs-grandChild">
+    <div class="hbs-gc-list">
+    <ul>
+    <li class="activeChild"><a href="/blog?primary_tag=Bodybuilding&amp;secondary_tag=Diet&amp;itracker=pMenu">Diet</a></li>
+    <li><a href="/blog?primary_tag=Bodybuilding&amp;secondary_tag=Exercise&amp;itracker=pMenu">Exercise</a></li>
+    <li><a href="/blog?primary_tag=Bodybuilding&amp;secondary_tag=Motivation&amp;itracker=pMenu">Motivation</a></li>
+    <li><a href="/blog?primary_tag=Bodybuilding&amp;secondary_tag=Supplementation&amp;itracker=pMenu">Supplementation</a></li>
+    <li><a href="/blog?primary_tag=Bodybuilding&amp;secondary_tag=Recipes&amp;itracker=pMenu">Recipes</a></li>
+    </ul>
+    </div>
+    <div class="hbs-gc-thumbs">
+    <ul>
+    <div class="hbs-gc-thumbs-heading">Latest Articles in Body Building</div>
+    <li>
+    <div class="thumbs">
+    <a href="http://connect.healthkart.com/new-to-gym-learn-how-to-not-feel-lost/bid-5132?itracker=pMenu">
+    <amp-img src="http://connect.healthkart.com/sites/default/files/xNew-To-Gym-Learn-how-not-to-feel-lost-hero-image_3.jpg.pagespeed.ic.9vwaZgSKT5.webp" width="10px" height="10px"></amp-img>
+    </a>
+    </div>
+    <div class="title"><a href="http://connect.healthkart.com/new-to-gym-learn-how-to-not-feel-lost/bid-5132?itracker=pMenu">New To Gym? Learn How To Not Feel Lost</a></div>
+    </li>
+    <li>
+    <div class="thumbs">
+    <a href="http://connect.healthkart.com/top-10-whey-proteins-in-india/bid-5091?itracker=pMenu">
+    <amp-img src="http://connect.healthkart.com/sites/default/files/xTop-10-Whey-Proteins-in-India-hero-images_1.jpg.pagespeed.ic.FYyb90ULfM.webp" width="10px" height="10px"></amp-img>
+    </a>
+    </div>
+    <div class="title"><a href="http://connect.healthkart.com/top-10-whey-proteins-in-india/bid-5091?itracker=pMenu">Top 10 Whey Proteins in India</a></div>
+    </li>
+    <li>
+    <div class="thumbs">
+    <a href="http://connect.healthkart.com/5-creatine-myths-busted/bid-5066?itracker=pMenu">
+    <amp-img src="http://connect.healthkart.com/sites/default/files/x5-Creatine-Myths-Busted-hero-image_1.jpg.pagespeed.ic.aZ2KmVkIBQ.webp" width="10px" height="10px"></amp-img>
+    </a>
+    </div>
+    <div class="title"><a href="http://connect.healthkart.com/5-creatine-myths-busted/bid-5066?itracker=pMenu">5 Creatine Myths Busted</a></div>
+    </li>
+    </ul>
+    </div>
+    </div>
+    </li>
+    <li>
+    <a href="/blog?primary_tag=Weightloss&amp;itracker=pMenu">
+    <span>Weight Loss</span>
+    </a>
+    <div class="hbs-grandChild">
+    <div class="hbs-gc-list">
+    <ul>
+    <li class="activeChild"><a href="/blog?primary_tag=Weightloss&amp;secondary_tag=Diet&amp;itracker=pMenu">Diet</a></li>
+    <li><a href="/blog?primary_tag=Weightloss&amp;secondary_tag=Exercise&amp;itracker=pMenu">Exercise</a></li>
+    <li><a href="/blog?primary_tag=Weightloss&amp;secondary_tag=Motivation&amp;itracker=pMenu">Motivation</a></li>
+    <li><a href="/blog?primary_tag=Weightloss&amp;secondary_tag=Supplementation&amp;itracker=pMenu">Supplementation</a></li>
+    <li><a href="/blog?primary_tag=Weightloss&amp;secondary_tag=Women&amp;itracker=pMenu">Women</a></li>
+    <li><a href="/blog?primary_tag=Weightloss&amp;secondary_tag=Recipes&amp;itracker=pMenu">Recipes</a></li>
+    </ul>
+    </div>
+    <div class="hbs-gc-thumbs">
+    <ul>
+    <div class="hbs-gc-thumbs-heading">Latest Articles in Weight Loss</div>
+    <li>
+    <div class="thumbs">
+    <a href="http://connect.healthkart.com/no-gym-no-diet-lose-weight-anyways/bid-5117?itracker=pMenu">
+    <amp-img src="http://connect.healthkart.com/sites/default/files/xNo-Gym-No-Diet-10-simple-ways-to-lose-weight-hero-image_1.jpg.pagespeed.ic.xUaamvOHMS.webp" width="10px" height="10px"></amp-img>
+    </a>
+    </div>
+    <div class="title"><a href="http://connect.healthkart.com/no-gym-no-diet-lose-weight-anyways/bid-5117?itracker=pMenu">No Gym, No Diet: Lose Weight Anyways!</a></div>
+    </li>
+    <li>
+    <div class="thumbs">
+    <a href="http://connect.healthkart.com/simple-exercises-you-can-do-at-work-to-stay-fit/bid-5098?itracker=pMenu">
+    <amp-img src="http://connect.healthkart.com/sites/default/files/xSimple-Exercises-You-Can-Do-At-Work-To-Stay-Fit_1.jpg.pagespeed.ic.bsB61B1vIO.webp" width="10px" height="10px"></amp-img>
+    </a>
+    </div>
+    <div class="title"><a href="http://connect.healthkart.com/simple-exercises-you-can-do-at-work-to-stay-fit/bid-5098?itracker=pMenu">Simple Exercises You Can Do At Work To Stay Fit</a></div>
+    </li>
+    <li>
+    <div class="thumbs">
+    <a href="http://connect.healthkart.com/green-coffee-bean-extract-facts-benefits/bid-5048?itracker=pMenu">
+    <amp-img src="http://connect.healthkart.com/sites/default/files/xGreen-Coffee-Bean-Extract-Facts-,P26-Benefits-hero-images_1.jpg.pagespeed.ic.Ufh0rUnaQX.webp" width="10px" height="10px"></amp-img>
+    </a>
+    </div>
+    <div class="title"><a href="http://connect.healthkart.com/green-coffee-bean-extract-facts-benefits/bid-5048?itracker=pMenu">Green Coffee Bean Extract: Facts &amp; Benefits</a></div>
+    </li>
+    </ul>
+    </div>
+    </div>
+    </li>
+    <li>
+    <a href="/blog?primary_tag=HealthyLiving&amp;itracker=pMenu">
+    <span>Healthy Living</span>
+    </a>
+    <div class="hbs-grandChild">
+    <div class="hbs-gc-list">
+    <ul>
+    <li class="activeChild"><a href="/blog?primary_tag=HealthyLiving&amp;secondary_tag=Diet&amp;itracker=pMenu">Diet</a></li>
+    <li><a href="/blog?primary_tag=HealthyLiving&amp;secondary_tag=Exercise&amp;itracker=pMenu">Exercise</a></li>
+    <li><a href="/blog?primary_tag=HealthyLiving&amp;secondary_tag=Motivation&amp;itracker=pMenu">Motivation</a></li>
+    <li><a href="/blog?primary_tag=HealthyLiving&amp;secondary_tag=Women&amp;itracker=pMenu">Women</a></li>
+    <li><a href="/blog?primary_tag=HealthyLiving&amp;secondary_tag=Recipes&amp;itracker=pMenu">Recipes</a></li>
+    </ul>
+    </div>
+    <div class="hbs-gc-thumbs">
+    <ul>
+    <div class="hbs-gc-thumbs-heading">Latest Articles in Healthy Living</div>
+    <li>
+    <div class="thumbs">
+    <a href="http://connect.healthkart.com/simple-exercises-you-can-do-at-work-to-stay-fit/bid-5098?itracker=pMenu">
+    <amp-img src="http://connect.healthkart.com/sites/default/files/xSimple-Exercises-You-Can-Do-At-Work-To-Stay-Fit_1.jpg.pagespeed.ic.bsB61B1vIO.webp" width="10px" height="10px"></amp-img>
+    </a>
+    </div>
+    <div class="title"><a href="http://connect.healthkart.com/simple-exercises-you-can-do-at-work-to-stay-fit/bid-5098?itracker=pMenu">Simple Exercises You Can Do At Work To Stay Fit</a></div>
+    </li>
+    <li>
+    <div class="thumbs">
+    <a href="http://connect.healthkart.com/top-5-places-to-eat-healthy-in-delhi/bid-5037?itracker=pMenu">
+    <amp-img src="http://connect.healthkart.com/sites/default/files/xTop-5-places-to-eat-in-Delhi-for-Bodybuilding-enthusiasts-hero-images_1.jpg.pagespeed.ic.qqQMEIrb3h.webp" width="10px" height="10px"></amp-img>
+    </a>
+    </div>
+    <div class="title"><a href="http://connect.healthkart.com/top-5-places-to-eat-healthy-in-delhi/bid-5037?itracker=pMenu">Top 5 Places To Eat Healthy In Delhi</a></div>
+    </li>
+    <li>
+    <div class="thumbs">
+    <a href="http://connect.healthkart.com/different-types-of-cooking-oils-and-their-benefits/bid-4975?itracker=pMenu">
+    <amp-img src="http://connect.healthkart.com/sites/default/files/xDifferent-Ypes-Of-Cooking-Oils-,P26-Their-Benefits-hero-images_1.jpg.pagespeed.ic.7mqZZEqmpg.webp" width="10px" height="10px"></amp-img>
+    </a>
+    </div>
+    <div class="title"><a href="http://connect.healthkart.com/different-types-of-cooking-oils-and-their-benefits/bid-4975?itracker=pMenu">Different Types Of Cooking Oils And Their Benefits</a></div>
+    </li>
+    </ul>
+    </div>
+    </div>
+    </li>
+    <li>
+    <a href="/blog?primary_tag=Celebrity&amp;itracker=pMenu">
+    <span>Celebrity</span>
+    </a>
+    <div class="hbs-grandChild fourthGC">
+    <div class="hbs-gc-thumbs">
+    <ul>
+    <div class="hbs-gc-thumbs-heading">Latest Articles in Celebrity</div>
+    <li>
+    <div class="thumbs">
+    <a href="http://connect.healthkart.com/parineeti-chopra-weight-loss-secret-her-journey-from-fat-to-fit/bid-5093?itracker=hpg-menu">
+    <amp-img src="http://connect.healthkart.com/sites/default/files/xparinity-chopra-work-out_1.jpg.pagespeed.ic.kMQUOwBcWB.webp" width="10px" height="10px"></amp-img>
+    </a>
+    </div>
+    <div class="title"><a href="http://connect.healthkart.com/parineeti-chopra-weight-loss-secret-her-journey-from-fat-to-fit/bid-5093?itracker=hpg-menu">Parineeti Chopra Weight Loss Secret: Her Journey From Fat To Fit</a></div>
+    </li>
+    <li>
+    <div class="thumbs">
+    <a href="http://connect.healthkart.com/train-like-a-celebrity-hrithik-roshan-workout-and-diet-plan/bid-4748?itracker=hpg-menu">
+    <amp-img src="http://connect.healthkart.com/sites/default/files/x222_1.jpg.pagespeed.ic.EADdN1Va73.webp" width="10px" height="10px"></amp-img>
+    </a>
+    </div>
+    <div class="title"><a href="http://connect.healthkart.com/train-like-a-celebrity-hrithik-roshan-workout-and-diet-plan/bid-4748?itracker=hpg-menu">Train Like A Celebrity: Hrithik Roshan Workout and Diet Plan</a></div>
+    </li>
+    <li>
+    <div class="thumbs">
+    <a href="http://connect.healthkart.com/best-celebrity-abs-six-pack-supreme/bid-4710?itracker=hpg-menu">
+    <amp-img src="http://connect.healthkart.com/sites/default/files/xtopBanner_19.jpg.pagespeed.ic.3xtOcKdmeu.webp" width="10px" height="10px"></amp-img>
+    </a>
+    </div>
+    <div class="title"><a href="http://connect.healthkart.com/best-celebrity-abs-six-pack-supreme/bid-4710?itracker=hpg-menu">Best Celebrity Abs- Six pack supreme!</a></div>
+    </li>
+    <li>
+    <div class="thumbs">
+    <a href="http://connect.healthkart.com/top-5-father%E2%80%99s-day-physiques-from-bollywood/bid-4609?itracker=hpg-menu">
+    <amp-img src="http://connect.healthkart.com/sites/default/files/xHero,P20,P286,P29_3.jpg.pagespeed.ic.sgUGxAaM17.webp" width="10px" height="10px"></amp-img>
+    </a>
+    </div>
+    <div class="title"><a href="http://connect.healthkart.com/top-5-father%E2%80%99s-day-physiques-from-bollywood/bid-4609?itracker=hpg-menu">Top 5 Father’s Day Physiques From Bollywood</a></div>
+    </li>
+    </ul>
+    </div>
+    </div>
+    </li>
+    </ul>
+    </div>
+    </div>
+    <div class="blueHoverPointer common-visible"><span class="down-arrow-blue"></span></div>
+    <!-- Sub Menus Ends -->
+    </li>
+    <li>
+    <a href="/Infographics?itracker=pMenu" class="top-menu ">
+    Infographics						</a>
+    <!-- Sub Menus Starts -->
+    </li>
+    <li>
+    <a href="/ama?itracker=pMenu" class="top-menu ">
+    Ask me anything						</a>
+    <!-- Sub Menus Starts -->
+    </li>
+    <li class="pos-rel">
+    <a href="/transformation-stories?itracker=pMenu" class="top-menu ">
+    Transformations							<span class="main-down-arrow"></span>
+    </a>
+    <!-- Sub Menus Starts -->
+    <ul class="sub-menu common-visible">
+    <a href="/transformation-stories?itracker=pMenu" class="">
+    <li>
+    View All						</li>
+    </a>
+    <a href="/transformation-stories/muscle-building?itracker=pMenu" class="">
+    <li>
+    Muscle Building						</li>
+    </a>
+    <a href="/transformation-stories/weight-loss?itracker=pMenu" class="">
+    <li>
+    Weight Loss						</li>
+    </a>
+    <a href="/transformations/winners?itracker=pMenu" class="">
+    <li>
+    Transformation Winners						</li>
+    </a>
+    <a href="https://accounts.healthkart.com/auth/Login.action?pre=&amp;pageType=login&amp;redirectUrl=http%3A%2F%2Fconnect.healthkart.com%2Fnode%2Fadd%2Ftransformation-stories&amp;redirectSrc=http%3A%2F%2Fconnect.healthkart.com&amp;itracker=pMenu" class="">
+    <li>
+    Submit Story						</li>
+    </a>
+    </ul>
+    <div class="blueHoverPointer common-visible"><span class="down-arrow-blue"></span></div>
+    <!-- Sub Menus Ends -->
+    </li>
+    <li class="pos-rel">
+    <a href="/questions?itracker=pMenu" class="top-menu ">
+    Q&amp;A							<span class="main-down-arrow"></span>
+    </a>
+    <!-- Sub Menus Starts -->
+    <ul class="sub-menu common-visible">
+    <a href="/questions?itracker=pMenu" class="">
+    <li>
+    View All						</li>
+    </a>
+    <a href="https://accounts.healthkart.com/auth/Login.action?pre=&amp;pageType=login&amp;redirectUrl=http%3A%2F%2Fconnect.healthkart.com%2Fnode%2Fadd%2Fquestion&amp;redirectSrc=http%3A%2F%2Fconnect.healthkart.com&amp;itracker=pMenu" class="">
+    <li>
+    Ask a Question						</li>
+    </a>
+    </ul>
+    <div class="blueHoverPointer common-visible"><span class="down-arrow-blue"></span></div>
+    <!-- Sub Menus Ends -->
+    </li>
+    <li>
+    <a href="/videos?itracker=pMenu" class="top-menu ">
+    Videos						</a>
+    <!-- Sub Menus Starts -->
+    </li>
+    <li>
+    <a href="/blog?lang=hindi&amp;itracker=pMenu" class="top-menu hindi-menu">
+    हिन्दी						</a>
+    <!-- Sub Menus Starts -->
+    </li>
+    </ul>
+    <div class="search-con-scroll">
+    <div class="search">
+    <div class="region region-sidebar-search">
+    <div class="region region-sidebar-search">
+    <div id="block-search-form" class="block block-search">
+    </div>  </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="mobile-menu-container">
+    <div class="mobile-header">
+    <button class="menu-button" id="open-button">Open Menu</button>
+    <div class="connectLogo"><a href="http://connect.healthkart.com"></a></div>
+    <div class="secondary-nav">
+    <ul>
+    <li>
+    <a href="https://play.google.com/store/apps/details?id=com.healthkart.healthkart&amp;hl=en&amp;referrer=utm_source%3Dconnect%26utm_medium%3Dweb">
+    <span>
+    <svg fill="#434343" height="30" viewBox="0 0 30 30" width="30">
+    <path fill="#434343" stroke="none" stroke-width="0" d="M20.4,12.3h-3.1V7.7h-4.7v4.7H9.6l5.4,5.4L20.4,12.3z M9.6,19.3v1.6h10.9v-1.6H9.6z"></path>
+    <path fill="#434343" stroke="none" stroke-width="0" d="M21.5,0.5H8.5c-1.1,0-2,0.9-2,2v25.1c0,1.1,0.9,2,2,2h12.9c1.1,0,2-0.9,2-2V2.5C23.4,1.4,22.5,0.5,21.5,0.5z M15.2,28.6c-0.9,0-1.6-0.7-1.6-1.6s0.7-1.6,1.6-1.6c0.9,0,1.6,0.7,1.6,1.6S16.1,28.6,15.2,28.6z M22.1,24.5H7.9V3.6h14.1V24.5z"></path>
+    </svg>
+    </span>
+    </a>
+    </li>
+    <li>
+    <a href="#">
+    <span>
+    <svg fill="#434343" height="26" viewBox="0 0 24 24" width="26">
+    <path fill="#434343" stroke="none" stroke-width="0" d="M17,7c0,2.8-2.2,5-5,5S7,9.8,7,7c0-2.8,2.2-5,5-5S17,4.2,17,7z"></path>
+    <path fill="#434343" stroke="none" stroke-width="0" d="M2,20.3c0-3.3,6.7-5.2,10-5.2s10,1.8,10,5.2V22H2V20.3z"></path>
+    </svg>
+    </span>
+    </a>
+    </li>
+    <li>
+    <a href="https://healthkart.com/cart/Cart.action">
+    <span>
+    <svg fill="#434343" height="26" viewBox="0 0 26 26" width="26">
+    <path fill="#434343" stroke="none" stroke-width="0" d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"></path>
+    </svg>
+    </span>
+    </a>
+    </li>
+    </ul>
+    </div>
+    </div>
+    <div class="menu-wrap">
+    <div class="profile-strip">
+    <span class="user-icon"></span>
+    <span class="get-account">Have an account?</span>
+    <span class="get-account ps-bttn">
+    <a href="https://accounts.healthkart.com/auth/Login.action?pre=&amp;pageType=login&amp;redirectUrl=http%3A%2F%2Fconnect.healthkart.com%2Fnode%2F5098&amp;redirectSrc=http%3A%2F%2Fconnect.healthkart.com">Sign In</a>
+    </span>
+    </div>
+    <nav class="menu">
+    <div class="icon-list">
+    <div class="dd-item-cont">
+    <div>
+    <a href="/blog?itracker=pMenu" class="top-menu ">
+    <span>
+    Blogs		</span>
+    </a>
+    <span class="add-icon dd-icon remove-icon"></span>
+    </div>
+    <!-- Child Menus Starts -->
+    <div class="sub-menu-m">
+    <!-- Sub Menu for Blog -->
+    <div class="dd-item-cont">
+    <div>
+    <a href="/blog?primary_tag=Bodybuilding&amp;itracker=pMenu" class="top-menu">
+    <span>Body Building</span>
+    </a>
+    <span class="add-icon dd-icon remove-icon"></span>
+    </div>
+    <!-- Grand Child Menus Starts -->
+    <div class="sub-menu-m">
+    <a href="/blog?primary_tag=Bodybuilding&amp;secondary_tag=Diet&amp;itracker=pMenu" class="sub-menu-list-m">Diet</a>
+    <a href="/blog?primary_tag=Bodybuilding&amp;secondary_tag=Exercise&amp;itracker=pMenu" class="sub-menu-list-m">Exercise</a>
+    <a href="/blog?primary_tag=Bodybuilding&amp;secondary_tag=Motivation&amp;itracker=pMenu" class="sub-menu-list-m">Motivation</a>
+    <a href="/blog?primary_tag=Bodybuilding&amp;secondary_tag=Supplementation&amp;itracker=pMenu" class="sub-menu-list-m">Supplementation</a>
+    <a href="/blog?primary_tag=Bodybuilding&amp;secondary_tag=Recipes&amp;itracker=pMenu" class="sub-menu-list-m">Recipes</a>
+    </div>
+    <!-- Grand Child Menus Ends -->
+    </div>
+    <!-- Sub Menu for Blog -->
+    <div class="dd-item-cont">
+    <div>
+    <a href="/blog?primary_tag=Weightloss&amp;itracker=pMenu" class="top-menu">
+    <span>Weight Loss</span>
+    </a>
+    <span class="add-icon dd-icon remove-icon"></span>
+    </div>
+    <!-- Grand Child Menus Starts -->
+    <div class="sub-menu-m">
+    <a href="/blog?primary_tag=Weightloss&amp;secondary_tag=Diet&amp;itracker=pMenu" class="sub-menu-list-m">Diet</a>
+    <a href="/blog?primary_tag=Weightloss&amp;secondary_tag=Exercise&amp;itracker=pMenu" class="sub-menu-list-m">Exercise</a>
+    <a href="/blog?primary_tag=Weightloss&amp;secondary_tag=Motivation&amp;itracker=pMenu" class="sub-menu-list-m">Motivation</a>
+    <a href="/blog?primary_tag=Weightloss&amp;secondary_tag=Supplementation&amp;itracker=pMenu" class="sub-menu-list-m">Supplementation</a>
+    <a href="/blog?primary_tag=Weightloss&amp;secondary_tag=Women&amp;itracker=pMenu" class="sub-menu-list-m">Women</a>
+    <a href="/blog?primary_tag=Weightloss&amp;secondary_tag=Recipes&amp;itracker=pMenu" class="sub-menu-list-m">Recipes</a>
+    </div>
+    <!-- Grand Child Menus Ends -->
+    </div>
+    <!-- Sub Menu for Blog -->
+    <div class="dd-item-cont">
+    <div>
+    <a href="/blog?primary_tag=HealthyLiving&amp;itracker=pMenu" class="top-menu">
+    <span>Healthy Living</span>
+    </a>
+    <span class="add-icon dd-icon remove-icon"></span>
+    </div>
+    <!-- Grand Child Menus Starts -->
+    <div class="sub-menu-m">
+    <a href="/blog?primary_tag=HealthyLiving&amp;secondary_tag=Diet&amp;itracker=pMenu" class="sub-menu-list-m">Diet</a>
+    <a href="/blog?primary_tag=HealthyLiving&amp;secondary_tag=Exercise&amp;itracker=pMenu" class="sub-menu-list-m">Exercise</a>
+    <a href="/blog?primary_tag=HealthyLiving&amp;secondary_tag=Motivation&amp;itracker=pMenu" class="sub-menu-list-m">Motivation</a>
+    <a href="/blog?primary_tag=HealthyLiving&amp;secondary_tag=Women&amp;itracker=pMenu" class="sub-menu-list-m">Women</a>
+    <a href="/blog?primary_tag=HealthyLiving&amp;secondary_tag=Recipes&amp;itracker=pMenu" class="sub-menu-list-m">Recipes</a>
+    </div>
+    <!-- Grand Child Menus Ends -->
+    </div>
+    <!-- Sub Menu for Blog -->
+    <div class="dd-item-cont">
+    <div>
+    <a href="/blog?primary_tag=Celebrity&amp;itracker=pMenu" class="top-menu">
+    <span>Celebrity</span>
+    </a>
+    </div>
+    <!-- Grand Child Menus Starts -->
+    <!-- Grand Child Menus Ends -->
+    </div>
+    </div>
+    <!-- Child Menus Ends -->
+    </div>
+    <div class="dd-item-cont">
+    <div>
+    <a href="/Infographics?itracker=pMenu" class="top-menu ">
+    <span>
+    Infographics		</span>
+    </a>
+    </div>
+    <!-- Child Menus Starts -->
+    <!-- Child Menus Ends -->
+    </div>
+    <div class="dd-item-cont">
+    <div>
+    <a href="/ama?itracker=pMenu" class="top-menu ">
+    <span>
+    Ask me anything		</span>
+    </a>
+    </div>
+    <!-- Child Menus Starts -->
+    <!-- Child Menus Ends -->
+    </div>
+    <div class="dd-item-cont">
+    <div>
+    <a href="/transformation-stories?itracker=pMenu" class="top-menu ">
+    <span>
+    Transformations		</span>
+    </a>
+    <span class="add-icon dd-icon remove-icon"></span>
+    </div>
+    <!-- Child Menus Starts -->
+    <div class="sub-menu-m">
+    <a href="/transformation-stories?=View%20All&amp;itracker=pMenu" class="sub-menu-list-m">View All</a>
+    <a href="/transformation-stories/muscle-building?=Muscle%20Building&amp;itracker=pMenu" class="sub-menu-list-m">Muscle Building</a>
+    <a href="/transformation-stories/weight-loss?=Weight%20Loss&amp;itracker=pMenu" class="sub-menu-list-m">Weight Loss</a>
+    <a href="/transformations/winners?=Transformation%20Winners&amp;itracker=pMenu" class="sub-menu-list-m">Transformation Winners</a>
+    <a href="https://accounts.healthkart.com/auth/Login.action?pre=&amp;pageType=login&amp;redirectUrl=http%3A%2F%2Fconnect.healthkart.com%2Fnode%2Fadd%2Ftransformation-stories&amp;redirectSrc=http%3A%2F%2Fconnect.healthkart.com&amp;=Submit%20Story&amp;itracker=pMenu" class="sub-menu-list-m"></a>
+    </div>
+    <!-- Child Menus Ends -->
+    </div>
+    <div class="dd-item-cont">
+    <div>
+    <a href="/questions?itracker=pMenu" class="top-menu ">
+    <span>
+    Q&amp;A		</span>
+    </a>
+    <span class="add-icon dd-icon remove-icon"></span>
+    </div>
+    <!-- Child Menus Starts -->
+    <div class="sub-menu-m">
+    <a href="/questions?=View%20All&amp;itracker=pMenu" class="sub-menu-list-m">View All</a>
+    <a href="https://accounts.healthkart.com/auth/Login.action?pre=&amp;pageType=login&amp;redirectUrl=http%3A%2F%2Fconnect.healthkart.com%2Fnode%2Fadd%2Fquestion&amp;redirectSrc=http%3A%2F%2Fconnect.healthkart.com&amp;=Ask%20a%20Question&amp;itracker=pMenu" class="sub-menu-list-m"></a>
+    </div>
+    <!-- Child Menus Ends -->
+    </div>
+    <div class="dd-item-cont">
+    <div>
+    <a href="/videos?itracker=pMenu" class="top-menu ">
+    <span>
+    Videos		</span>
+    </a>
+    </div>
+    <!-- Child Menus Starts -->
+    <!-- Child Menus Ends -->
+    </div>
+    <div class="dd-item-cont">
+    <div>
+    <a href="/blog?lang=hindi&amp;itracker=pMenu" class="top-menu hindi-menu">
+    <span>
+    हिन्दी		</span>
+    </a>
+    </div>
+    <!-- Child Menus Starts -->
+    <!-- Child Menus Ends -->
+    </div>
+    </div>
+    <div class="vertical-icon-list">
+    <a href="http://healthkart.com" class="bottom-menu">Shop</a>
+    <a href="http://consult.healthkart.com?itracker=w:tab|;p:0|;c:healthkart|" class="bottom-menu">Consult</a>
+    </div>
+    </nav>
+    <button class="close-button" id="close-button">Close Menu</button>
+    </div>
+    </div>
+    <!-- /mobile-menu-container -->
+    <div class="content-wrap">
+    <div id="content" class="content mask"></div>
+    </div>
+    <div class="trn-dropdown-m" id="trn-dd-m">
+    <ul>
+    <li class="title">
+    Account
+    <span class="up-arrow-yellow">
+    </span>
+    </li>
+    <a href="https://accounts.healthkart.com/auth/Login.action?pre=&amp;pageType=login&amp;redirectUrl=http%3A%2F%2Fconnect.healthkart.com%2Fnode%2F5098&amp;redirectSrc=http%3A%2F%2Fconnect.healthkart.com">
+    <li>Log In
+    <span class="right-arrow">
+    </span>
+    </li>
+    </a>
+    <a href="https://accounts.healthkart.com/auth/Login.action?pre=&amp;pageType=signUp&amp;redirectUrl=http%3A%2F%2Fconnect.healthkart.com%2Fnode%2F5098&amp;redirectSrc=http%3A%2F%2Fconnect.healthkart.com">
+    <li>Sign Up
+    <span class="right-arrow">
+    </span>
+    </li>
+    </a>
+    <a href="https://healthkart.com/account/MyAccountProfile.action">
+    <li>Profile
+    <span class="right-arrow">
+    </span>
+    </li>
+    </a>
+    <a href="https://healthkart.com/account/MyAccountOrderHistory.action">
+    <li>Orders
+    <span class="right-arrow">
+    </span>
+    </li>
+    </a>
+    <a href="https://healthkart.com/account/MyAccountReorder.action">
+    <li>Re-Order
+    <span class="right-arrow">
+    </span>
+    </li>
+    </a>
+    </ul>
+    </div>
+    <div class="main" id="mainContainer">
+    <div class="mobile-search-con">
+    <div class="-mobile-search">
+    <div class="region region-sidebar-search">
+    <div class="region region-sidebar-search">
+    <div class="region region-sidebar-search">
+    <div id="block-search-form" class="block block-search">
+    </div>  </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="main-content-block main-wrapper">
+    <div class="left">
+    <div class="">
+    <div class="dtab"></div>		<div class="blk content-block">
+    <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+    <div class="article-container">
+    <div class="social-icon-scroll-visible">
+    <div class="shar-icon-text pull-left">Share</div>
+    <div class="shar-icon pull-left">
+    </div>
+    </div>
+    <div class="top-image">
+    <div class="img-title col-xs-12 col-md-12">
+    <h1 class="text-on-image"><span>Simple Exercises You Can Do At Work To Stay Fit</span></h1>
+    </div>
+    </div>
+    <div class="sub-article">
+    <div class="article-social-sec clearfix">
+    <div class="article-author pull-left">
+    <div class="">
+    By<span class="a-name"><span><span class="username">Saurabh</span></span></span>
+    <span class="date-mobl">Sep 16, 2016</span>
+    </div>
+    </div>
+    <div class="pull-right comm-view">
+    <div class="">
+    <div class="pull-left ">
+    <div class="addthis_toolbox addthis_default_style" >
+    <div class="custom_images">
+    <div class="">
+    <span>
+    7005 views                                        </span>
+    </div>
+    </div>
+    <div class="atclear"></div></div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div>
+    <div class="shar-icon-text">
+    <div class="shar-icon-text">
+    <div class="number-share bold-class">50</div> <div>shares</div>                    </div>
+    </div>
+    <a class="addthis_button_facebook at300b" title="Facebook" href="#"><amp-img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAn9JREFUeNpiYBgFowAnYKSWQZbR0w2AFAgrALE8lAaBD0B8EUpfOL4088CAOhroUAcgFQ/EAUAsQILWDUC8EeiBBXRzNNSx9UDsQGGgPQDiRlIdz0iiY0FRPp8KjsXm+ERikw4zCQ4GJYHtQKxBg7wFSloJsno+jE8ubz1AlZAGOjgBGsL0AAuAIZ5IkaPp7GCiHM44CB1M0OGMBMrd8wNcjyRiK1nwOfo8tLIgC0iK8jLYGSsy8HCxoYhvO3yT4fnrz8QaA6qQDIEOf4AsyILDwQ2UODg/xpoh3EMXq9z5689IcTSoVOkH4kBkQSYsDgYpzCfXwUaaUjgdTCYIgFZmuB0NKi9JrJJRgJedOi3Sdj6h5JFPiemSIrwYYit3XGb48u0nmP38zWdyQ1sAmLY/YDgaWmIoUDuYJi45SpVkAioGsSUPB4bBC/xxJQ97ck1MDjIB0xKivDjlyCjysAYouqMVKHU0ITkSizz04g9r6WFA6zgmMyMit+OxFnm0dfTrzxSbwUItx8xddwZeTqMXezA5agGqOxpUI9La0XRPHrRw9IXB7FhYH5IJSwdzsIIHuEL64CB29AFcjt4wiB19EKujoT2EwZquN+ArPSYOQgcvgDVLsToa2pEcbBmykZhyunGQhfIDYnvj+8lpX1O5GgclCUXkpEGoGk+EjnuQ1F/cdugmtcc9PhBdjUOjJHEg0zHQDViL4OE3ljdADqd81BStp76eFr11pExXSMysANFNU6BhoJrSEIgn0KhdYUjsNAa5cy6gUAcN6iRQwbGNpM54UTq7pQAdRIknoVP8ANqOWAiNPZIBNecRBaAON8BRtoNC8wF67TZiAECAAQCcgdpqvCcw3wAAAABJRU5ErkJggg==" width="35" height="35" alt="Share to Facebook"></amp-img></a>
+    <a class="addthis_button_twitter at300b" title="Tweet" href="#"><amp-img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJJREFUeNrsmc1u00AQx9chDSA+6nIoVCDh3pFwuHCsywsQwYWeEj8ByhMkeYLCEyQ95Uh640TNkUvjSlzgkhyQIiFEzEcBtUCZsTeV667jWduxI9GRNo7krP3L7H9nZncZO7MzCzUltSd1Rzp8YtOg3eZXNAfaHr/abGPFyhe6OzLgswqtAk2V6NmDtg1/oJMdtAfbgGYkdNoQWksWXpGExSFvpwArgjep0ilIAKME+jMAZlz/O/COZnqe7o5q3MNZWAc8biaDzhaYBK7MIXAkuBIRd/s55xFTFFmmTcQ2y982ecQiQHuzWJ8DaNUFj5RHd4Q/HEhmuFnbuj+GizxdowBrl86R3ta8c5mNH19nR09uuK19f5GppYLbH+/pSwuUxzyN8vTAV+yIxwxeOn60zMw3X1hn8DN8UgBgbfVi6H3r4wFbf/WZ6u0l8LZz2tNexNCieutq8RgKvSX8DXhwGvBktDbvXaVCV8LkQUrRzuHR8fcGQO88uMaM5dLJN9w8H/kc9HR99ysV+uHkSzFwY43S2x4fuuDqgqcuBDYA3HZ+sy2QC95fLE0va4b7f1x5SZgRBq2R4hAAPX+373o5KBu9fIVW1gF0jPAnlAcpNiNcI0TL5FpUHnpSx0uUpgEt+nUdx/ZASnGtELejpB5Pr7c+/MoeGl9a739jcUcqljySQqPdVYux+rXefk80SkFoW6YzetqW1Oaz9z9cT8cyXn8UBAtMsjkHf1n55ScXnjIx8Q9KJBMWxhaEfi37JEwsKJNJopkGLFFnCKdCWHLpiepXUeVWhbqCWumhhpsJdex3qKjK61OSDHoYwSu3Lgi9jJ7dhgiDVWCSSCGq8pQ0FrPocb/XY0804iJXCUmXkTV1xrYK0MOoON2aI+COHzgc2lu2W3MAjBquy2REk3fKe9/DoUN7Q2LmCIxbwD25HaYE0STtaCEPnT14CrumJ1fqL2YYCr1JRzgVoJemGytYAZaxUJsBsOU+m3iMEffMRee7PrUUYFuyJ15JT7c0volSZfQNyyEvzLb46ElbmueIKgfXmXgv0HKBA9ntv7F/AgwANYYMuhLsLSoAAAAASUVORK5CYII=" width="35" height="35" alt="Share to Twitter"></amp-img></a>
+    <a class="addthis_button_pinterest_share at300b" title="Pinterest" href="#"><amp-img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAV1BMVEUAAACzEhezEhezEhezEhezEhezEhezEhezEhezEhezEhezEhezEhe3ICW7LjK/PEDDSk7GWFvKZmnOdHfSgoXWkJLanqDerK7iurvlyMnp1tft5OTx8vI3aTcYAAAADHRSTlMAECAwYICPn7/P3+89sepiAAABxElEQVRIiZVW2baDIAy0Wqu1gFo3vPD/33kJIA1be8hLC8yEZAjBqkrb7ZZZiK1p+4FoG/q2+YWuHxZ82fCov8E7krAuS2lTcLA27f6ZwxPyTGzSvPJ4Ql5R9vdvcLB74P8XnhBvj/prPDYqnIefL12OU0rJ99mbfmb0pJt0Jha84tSt8ewoDJSbX07R2hVUF+L/Fqb+shUYJ2J08QYM8DvF7C3a4oFmOOA/wwn2YJ/xQxNQfY4Qtcr7kMfoHKyf9SE8s804BFEPPbEYD86aQFPl8CTkrfVxMWECKNuj8akD2KWDAUEgQO+nQIQmQOBWHCCcCABJoCFAN0uYkzmQgHCoAKhG2Th2X+aI8NYqTk4kiFG+MaL2CZA1J6sTX+uFqyncgVCuIuCXWyrCiCKCqiZKrppjcICChYSgc9kCUvWtxfIz0LL2IQHqQ1xXyMfrg4vaF3i2145PwVqbahjmcNm0TCxcMq0jSGIMLk2Ygn+BiMl5TuPtBar9ydWvT8/quAlowp7Bd6k2owgiTtbbIFB2lUsGj54J3CrnnESoVZY34+J2X/6glD9Z5Y9iqm4vSz+7VfnDXhV/Opjsiz5OnGU/f/4BLHxewdmdKucAAAAASUVORK5CYII=" width="35" height="35" alt="Share to Pinterest" ></amp-img></a>
+    <a class="addthis_button_google_plusone_share at300b" target="_blank" title="Google+" href="#"><amp-img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3hJREFUeNrsmUFoE0EUhic1oQhpSCslVgRbir2aetCDh0aUeqig6KWnNgE9tBcJpb3ZNh4Fiad6UGgsCJ5shPZQQUwOXgRNe61IcyiNQZTQBkRa1Pe2s+tmd2dnNpnNBuyDYdN2Nv32zXv/vHlLyJEdGdN8sr5o88qFKFxw9MI4Q69oFRgb9Lo+8PZDzlNoAI3BZRzGTRhhB7dmYbyGB8g0DZrCzsGINei0IoyUU3ifQ1hc8kUJsFbwCdHQaXMAjCFQcAGY0Ph/B/9jXpqn4cvi1MPNsAx4PNEQdJOBhcB9LQjMBfdxdLfg8T6SsFIWu0RcJN5bmioWH5pmcbQFoHHDSnPDA4Bx4pbDHc5tu6zXcL/FhLhT4OPnzmufD8olsv+1JBv6Hoycnae3dMUO0wIne0jX2F0SGh4x/W0fwH8sPSW7a6sywTvB2xUTtKhihK6NkO6JJGkLdtjO+7nxiWxPTUhXEmMicrfo4KUhEpmerQH+Xd1TANHDett9syLT0zdYMT1kW6gAaGT6fg3s96VnpPLqpfa79v4BEr49Cg/xUXZ4xFjQtrGM8av38M7cjOJhvf36sknKDx9wCU5APnSN3VE+f756UVT+LHU6yovlf0u/agJ222gdbyl5TMOl16DXVkwPFBq+zrz320JaWQV1nh/UR7XTj57UzOGZX5YXApFTNXptzocgc576szrHNehjHLkz2gFVlv3yjhJW6OlApEeTxsPErjo/bkHM/LGbjMuoeqX6Pk9KkIh2u6S67FbJVkciatu5MRHX7e7Q6y7qtT4xjdLYPZnUfsYHNO+ahx53ksxq/WH09DJtB7APcy+y2rIqTQ3QaBxqvYEeRmB90uKuKEFpigDdZxXTeR50aXYGln1B0+vwrVFlsFdHmjTmWDqd5d2JkrQ9NanshjxDYJGNRtDydlVeQeQAgJ7uBA93QFzrw0WN4T0Atopl6VVevYdZfID2/rOKZIlsDo0ecn2M7VKopm6i9QF0kXewTbUQcEYPzISmxXauBYAxhpNOWggJepPXfY+KMDRdkoSHwNgCzjpui3nYGqu/l+cReONdU8NJfdlFKVSSTuStgHBTHb4MK8BBGI9dAEalGhR9jVHvO5co7frEJcCmnL7xavTtVi+tCseJeMOySAuz53T1HJvM94hhCh4l1r3AHK2Ji+R/tL8CDABiF1iCco74dQAAAABJRU5ErkJggg==" width="35" height="35" alt="Share to Twitter"></amp-img></a>
+    </div>
+    <div class="row article-section">
+    <div class="col-xs-12 col-md-8">
+    <div class="languageConversionBtn">
+    </div>
+    <div class="">
+    <blockquote class="sub-desc">Time and money are one of the most priceless things we strive for. And honestly, we all feel that we have less of both. So, this becomes our ultimate obstacle when we think about staying fit. Yes! We are talking about workout for desk workers.</blockquote>
+    </div>
+    <div>
+    <h2 class=" heading-one">
+    </h2>
+    </div>
+    <div>
+    <h3 class="sub-heading">
+    </h3>
+    </div>
+    <div class="sub-heading">
+    <p>Some of the commonly heard statements are:<br>
+    "I don't have time to go to gym. I come home late from office."<br>
+    "I have a gym near my house but it's expensive"<br>
+    "Dieting? Are you serious? I am busy. I don't have time to think about it."<br>
+    "Some say eat this; Some say don't eat that. Making and following a diet plan is so confusing."<br>
+    And the list goes on...</p>
+    <p>So what is the solution? You can't stop working. But, neither can you stay unfit. Thus, when you have to stretch at work, the solution is that you can also <strong>workout at work</strong>.&nbsp;<br>
+    Confused? What we simply mean is<strong> exercises you can do at your desk</strong>. There are various ways in which you can <strong>workout at work</strong> to stay healthy and fit. And this has it's own set of benefits.</p>
+    <p><strong>Benefits of Office Workout:</strong></p>
+    <ul>
+    <li>It is not going to burn a hole in your pocket. Infact, it is a great way to lose weight from your body while increasing weight of your pocket.</li>
+    <li>It saves you precious time that you might have had to spend at gym before/after office hours.</li>
+    <li>It is a great way to burst stress. This might help you be more productive at work.</li>
+    </ul>
+    <p>Now, let's look at 5 simple <strong>office exercises</strong> you can do at work to stay fit.</p>
+    <p><br>
+    <span><strong>1. Skip the Elevator; Take the Stairs.</strong></span></p>
+    <p><br>
+    This is one of the best <strong>office workout ideas</strong> that you can use even before you reach your work desk. The moment you reach office, the first thing that comes to mind is - "Hurry up to catch the elevator". I know it's very tempting and feels really convenient. But, if you really want to stay fit, this is the first habit you need to change. Unless there's a dire need, avoid using the elevator. Take the stairs and burn some calories.&nbsp;</p>
+    <p>&nbsp;</p>
+    </div>
+    <div class="row">
+    <div class="col-xs-12 col-md-12">
+    <div class="sub-images">
+    <amp-img title="Take The Stairs" alt="Take The Stairs" class="img-responsive" src="http://img1.hkrtcdn.com/ff/Climbing Stairs.jpg " width="10px" height="10px"> </amp-img>
+    </div>
+    </div>
+    </div>
+    <div>
+    <h2 class=" heading-one">
+    </h2>
+    </div>
+    <div>
+    <h3 class="sub-heading">
+    </h3>
+    </div>
+    <div class="sub-heading">
+    <p><em>Image Source: www.hindustantimes.com</em></p>
+    <p><br>
+    <strong>Benefit:&nbsp;</strong><br>
+    An average person weighing about 175 pounds can burn approximately 20 calories in the 2 minutes taken to climb the stairs. And if the same person takes that 60 second comfort ride in the elevator, the calories burnt are about 2. So, you want to burn 2 calories or 20 calories, the choice is yours to make. In addition to burning calories, climbing stairs is a good cardio exercise that can also help strengthen your muscles.</p>
+    <p><br>
+    <strong><span>2. Stretch, Raise and Squat</span></strong></p>
+    <p>Working for multiple hours at a stretch? Then it's time to stretch. When you are sitting at your workstation, continuously gazing into your computer, it is eminent that you will get tired. And plus, sitting for long hours everyday, also leads to weight gain, as you are not burning the calories consumed during your breakfast or lunch. Wondering what to do? Well, you can try the following simple <strong>workout tips at office</strong> to stay fit:</p>
+    <p>&nbsp;</p>
+    </div>
+    <div class="row">
+    <div class="col-xs-12 col-md-12">
+    <div class="sub-images">
+    <amp-img title="Simple Exercises For Fitness" alt="Simple Exercises For Fitness" class="img-responsive" src="http://img1.hkrtcdn.com/ff/Strech raise squat.jpg " data-pagespeed-url-hash="2736789617" width="10px" height="10px">
+    </div>
+    </div>
+    </div>
+    <div>
+    <h2 class=" heading-one">
+    </h2>
+    </div>
+    <div>
+    <h3 class="sub-heading">
+    </h3>
+    </div>
+    <div class="sub-heading">
+    <p><em>Image Source: www.mentalandbodycare.com</em></p>
+    <p>Stand up near your desk and raise your arms upward. Then spread 'n' stretch your fingers to relax the tense muscles. You can repeat the same with your arms stretched down and forward.&nbsp;<br>
+    Stand facing your office desk/chair, hold it from a distance of about 2 feet and perform simple sit-ups.&nbsp;</p>
+    <p><strong>Benefit:</strong><br>
+    This will help you burn calories and strengthen your legs and calf muscles.&nbsp;</p>
+    <p><strong><span>3. Office Yoga</span></strong></p>
+    <p>Yoga is known to have miraculous effects on your body and mind. Be it strengthening muscles or be it busting the stress, yoga can be your ultimate key to unlock your door to fitness.&nbsp;<br>
+    Though there are a numerous postures one can perform in yoga but let's have a look at the most easy and simple of yoga exercise that you can perform in office - Breathing. Yes, something as simple as proper breathing can have a major positive impact on your fitness.<br>
+    Just sit in your chair, relax your shoulders and close your eyes. Now take a deep breath and hold it. Count till 4 while holding your breath. And finally release it at a slow pace while counting till 8. Repeat this process for 10 minutes.&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    </div>
+    <div class="row">
+    <div class="col-xs-12 col-md-12">
+    <div class="sub-images">
+    <amp-img title="Deep Breathing To Stay Fit" alt="Deep Breathing To Stay Fit" class="img-responsive" src="http://img1.hkrtcdn.com/ff/Breathing exercise office.jpg " data-pagespeed-url-hash="3627380928" width="10px" height="10px">
+    </div>
+    </div>
+    </div>
+    <div>
+    <h2 class=" heading-one">
+    </h2>
+    </div>
+    <div>
+    <h3 class="sub-heading">
+    </h3>
+    </div>
+    <div class="sub-heading">
+    <p><em>Image Source: www.static2.businessinsider.com</em></p>
+    <p><strong>Benefit:</strong><br>
+    This will refresh your mind and relieve your stress. Deep breathing regularly will also increase the oxygen intake in your body that can inturn help in burning calories.</p>
+    <p><strong><span>4. Just Lift it and walk around.</span></strong></p>
+    <p>Yes! You got it right. It’s as simple as it sounds. From office files to folders and from your laptop to your office stationery, just lift things and walk the corridors. You can also stand at your desk, lift your laptop/files and raise your arms up and down.&nbsp;</p>
+    <p>&nbsp;</p>
+    </div>
+    <div class="row">
+    <div class="col-xs-12 col-md-12">
+    <div class="sub-images">
+    <amp-img title="Walk Regularly To Stay Fit" alt="Walk Regularly To Stay Fit" class="img-responsive" src="http://img1.hkrtcdn.com/ff/Walking with files.jpg " data-pagespeed-url-hash="1713265128" width="10px" height="10px"></amp-img>
+    </div>
+    </div>
+    </div>
+    <div>
+    <h2 class=" heading-one">
+    </h2>
+    </div>
+    <div>
+    <h3 class="sub-heading">
+    </h3>
+    </div>
+    <div class="sub-heading">
+    <p><em>Image Source: www.eidupont.scene7.com</em></p>
+    <p><strong>Benefit:</strong><br>
+    Lifting light to medium weight and walking around will not only help you burn calories but will also make you feel light and refreshing.</p>
+    <p><strong><span>5. Stay fit while you Sit</span></strong><br>
+    &nbsp;<br>
+    You can perform many exercises while just sitting in your office chair. Let’s look at 3 simple ones.</p>
+    <p>Leg extensions &nbsp;- Just sit in your chair, extend your left leg to bring it up to your hip level. Hold it at that position till you are comfortable and then just relax it. Repeat the same process with the right leg. 5 reps for each leg should be good enough.&nbsp;</p>
+    <p>Neck Rolling - Sit in an upright position in your office chair. Close your eyes and drop your chin down to your chest. Now start moving your neck in a circular motion clockwise. Do it 4 to 5 times. Then, repeat this exercise anti-clockwise.</p>
+    <p>Spinal Twist - With your feet flat on floor, just sit sideways in your chair with your hands on the arm of the chair. Twist your waist to the right looking towards the back of the chair. Repeat this process for left side as well.&nbsp;</p>
+    <p>&nbsp;</p>
+    </div>
+    <div class="row">
+    <div class="col-xs-12 col-md-12">
+    <div class="sub-images">
+    <amp-img title="Spinal Twist" alt="Spinal Twist" class="img-responsive" src="http://img1.hkrtcdn.com/ff/Waist Twist.jpg " data-pagespeed-url-hash="2615357098" width="10px" height="10px"></amp-img>
+    </div>
+    </div>
+    </div>
+    <div>
+    <h2 class=" heading-one">
+    </h2>
+    </div>
+    <div>
+    <h3 class="sub-heading">
+    </h3>
+    </div>
+    <div class="sub-heading">
+    <p><em>Image source:http://www.dmithemes.com/</em></p>
+    <p><strong>Benefit:</strong><br>
+    This is a great stress-buster and helps relax body muscles.&nbsp;</p>
+    <p>So, staying fit, while you are loaded with work, is no more a luxury. And neither is it a rocket science. It’s simple, easy and comes at no monetary cost. All you need to do is be regular and stay strong-willed.</p>
+    </div>
+    <div class="row">
+    <div class="col-xs-12 col-md-12">
+    <div class="sub-images">
+    <a href="http://consult.healthkart.com/weight-loss">                                                <amp-img title="Consult To Stay Fit" alt="Consult To Stay Fit" class="img-responsive" src="http://img1.hkrtcdn.com/ff/Simple-Exercises-You-Can-Do-At-Work-To-Stay-Fit-bottom-banner.jpg " data-pagespeed-url-hash="1976479470" width="10px" height="10px">
+    </a>
+    </div>
+    </div>
+    </div>
+    <div class="">
+    <div class="next-previous">
+    <div class="col-xs-12 col-sm-6 col-md-6 social-icon">
+    <div class="shar-icon-text">
+    <div class="number-share bold-class">50</div> <div>shares</div>                                </div>
+    <div class="">
+    <div class="addthis_toolbox addthis_default_style">
+    <div class="custom_images">
+    <a class="addthis_button_facebook at300b" title="Facebook" href="#"><amp-img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAn9JREFUeNpiYBgFowAnYKSWQZbR0w2AFAgrALE8lAaBD0B8EUpfOL4088CAOhroUAcgFQ/EAUAsQILWDUC8EeiBBXRzNNSx9UDsQGGgPQDiRlIdz0iiY0FRPp8KjsXm+ERikw4zCQ4GJYHtQKxBg7wFSloJsno+jE8ubz1AlZAGOjgBGsL0AAuAIZ5IkaPp7GCiHM44CB1M0OGMBMrd8wNcjyRiK1nwOfo8tLIgC0iK8jLYGSsy8HCxoYhvO3yT4fnrz8QaA6qQDIEOf4AsyILDwQ2UODg/xpoh3EMXq9z5689IcTSoVOkH4kBkQSYsDgYpzCfXwUaaUjgdTCYIgFZmuB0NKi9JrJJRgJedOi3Sdj6h5JFPiemSIrwYYit3XGb48u0nmP38zWdyQ1sAmLY/YDgaWmIoUDuYJi45SpVkAioGsSUPB4bBC/xxJQ97ck1MDjIB0xKivDjlyCjysAYouqMVKHU0ITkSizz04g9r6WFA6zgmMyMit+OxFnm0dfTrzxSbwUItx8xddwZeTqMXezA5agGqOxpUI9La0XRPHrRw9IXB7FhYH5IJSwdzsIIHuEL64CB29AFcjt4wiB19EKujoT2EwZquN+ArPSYOQgcvgDVLsToa2pEcbBmykZhyunGQhfIDYnvj+8lpX1O5GgclCUXkpEGoGk+EjnuQ1F/cdugmtcc9PhBdjUOjJHEg0zHQDViL4OE3ljdADqd81BStp76eFr11pExXSMysANFNU6BhoJrSEIgn0KhdYUjsNAa5cy6gUAcN6iRQwbGNpM54UTq7pQAdRIknoVP8ANqOWAiNPZIBNecRBaAON8BRtoNC8wF67TZiAECAAQCcgdpqvCcw3wAAAABJRU5ErkJggg==" width="35" height="35" alt="Share to Facebook" data-pagespeed-url-hash="3753023016"></amp-img></a>
+    <a class="addthis_button_twitter at300b" title="Tweet" href="#"><amp-img width="10px" height="10px"  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJJREFUeNrsmc1u00AQx9chDSA+6nIoVCDh3pFwuHCsywsQwYWeEj8ByhMkeYLCEyQ95Uh640TNkUvjSlzgkhyQIiFEzEcBtUCZsTeV667jWduxI9GRNo7krP3L7H9nZncZO7MzCzUltSd1Rzp8YtOg3eZXNAfaHr/abGPFyhe6OzLgswqtAk2V6NmDtg1/oJMdtAfbgGYkdNoQWksWXpGExSFvpwArgjep0ilIAKME+jMAZlz/O/COZnqe7o5q3MNZWAc8biaDzhaYBK7MIXAkuBIRd/s55xFTFFmmTcQ2y982ecQiQHuzWJ8DaNUFj5RHd4Q/HEhmuFnbuj+GizxdowBrl86R3ta8c5mNH19nR09uuK19f5GppYLbH+/pSwuUxzyN8vTAV+yIxwxeOn60zMw3X1hn8DN8UgBgbfVi6H3r4wFbf/WZ6u0l8LZz2tNexNCieutq8RgKvSX8DXhwGvBktDbvXaVCV8LkQUrRzuHR8fcGQO88uMaM5dLJN9w8H/kc9HR99ysV+uHkSzFwY43S2x4fuuDqgqcuBDYA3HZ+sy2QC95fLE0va4b7f1x5SZgRBq2R4hAAPX+373o5KBu9fIVW1gF0jPAnlAcpNiNcI0TL5FpUHnpSx0uUpgEt+nUdx/ZASnGtELejpB5Pr7c+/MoeGl9a739jcUcqljySQqPdVYux+rXefk80SkFoW6YzetqW1Oaz9z9cT8cyXn8UBAtMsjkHf1n55ScXnjIx8Q9KJBMWxhaEfi37JEwsKJNJopkGLFFnCKdCWHLpiepXUeVWhbqCWumhhpsJdex3qKjK61OSDHoYwSu3Lgi9jJ7dhgiDVWCSSCGq8pQ0FrPocb/XY0804iJXCUmXkTV1xrYK0MOoON2aI+COHzgc2lu2W3MAjBquy2REk3fKe9/DoUN7Q2LmCIxbwD25HaYE0STtaCEPnT14CrumJ1fqL2YYCr1JRzgVoJemGytYAZaxUJsBsOU+m3iMEffMRee7PrUUYFuyJ15JT7c0volSZfQNyyEvzLb46ElbmueIKgfXmXgv0HKBA9ntv7F/AgwANYYMuhLsLSoAAAAASUVORK5CYII=" width="35" height="35" alt="Share to Twitter" data-pagespeed-url-hash="892232537" ></amp-img></a>
+    <a class="addthis_button_pinterest_share at300b" target="_blank" title="Pinterest" href="#"><amp-img width="10px" height="10px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAV1BMVEUAAACzEhezEhezEhezEhezEhezEhezEhezEhezEhezEhezEhezEhe3ICW7LjK/PEDDSk7GWFvKZmnOdHfSgoXWkJLanqDerK7iurvlyMnp1tft5OTx8vI3aTcYAAAADHRSTlMAECAwYICPn7/P3+89sepiAAABxElEQVRIiZVW2baDIAy0Wqu1gFo3vPD/33kJIA1be8hLC8yEZAjBqkrb7ZZZiK1p+4FoG/q2+YWuHxZ82fCov8E7krAuS2lTcLA27f6ZwxPyTGzSvPJ4Ql5R9vdvcLB74P8XnhBvj/prPDYqnIefL12OU0rJ99mbfmb0pJt0Jha84tSt8ewoDJSbX07R2hVUF+L/Fqb+shUYJ2J08QYM8DvF7C3a4oFmOOA/wwn2YJ/xQxNQfY4Qtcr7kMfoHKyf9SE8s804BFEPPbEYD86aQFPl8CTkrfVxMWECKNuj8akD2KWDAUEgQO+nQIQmQOBWHCCcCABJoCFAN0uYkzmQgHCoAKhG2Th2X+aI8NYqTk4kiFG+MaL2CZA1J6sTX+uFqyncgVCuIuCXWyrCiCKCqiZKrppjcICChYSgc9kCUvWtxfIz0LL2IQHqQ1xXyMfrg4vaF3i2145PwVqbahjmcNm0TCxcMq0jSGIMLk2Ygn+BiMl5TuPtBar9ydWvT8/quAlowp7Bd6k2owgiTtbbIFB2lUsGj54J3CrnnESoVZY34+J2X/6glD9Z5Y9iqm4vSz+7VfnDXhV/Opjsiz5OnGU/f/4BLHxewdmdKucAAAAASUVORK5CYII=" width="35" height="35" alt="Share to Pinterest" data-pagespeed-url-hash="3332550544"></amp-img></a>
+    <a class="addthis_button_google_plusone_share at300b" target="_blank" title="Google+" href="#"><amp-img width="10px" height="10px" layout="responsive" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3hJREFUeNrsmUFoE0EUhic1oQhpSCslVgRbir2aetCDh0aUeqig6KWnNgE9tBcJpb3ZNh4Fiad6UGgsCJ5shPZQQUwOXgRNe61IcyiNQZTQBkRa1Pe2s+tmd2dnNpnNBuyDYdN2Nv32zXv/vHlLyJEdGdN8sr5o88qFKFxw9MI4Q69oFRgb9Lo+8PZDzlNoAI3BZRzGTRhhB7dmYbyGB8g0DZrCzsGINei0IoyUU3ifQ1hc8kUJsFbwCdHQaXMAjCFQcAGY0Ph/B/9jXpqn4cvi1MPNsAx4PNEQdJOBhcB9LQjMBfdxdLfg8T6SsFIWu0RcJN5bmioWH5pmcbQFoHHDSnPDA4Bx4pbDHc5tu6zXcL/FhLhT4OPnzmufD8olsv+1JBv6Hoycnae3dMUO0wIne0jX2F0SGh4x/W0fwH8sPSW7a6sywTvB2xUTtKhihK6NkO6JJGkLdtjO+7nxiWxPTUhXEmMicrfo4KUhEpmerQH+Xd1TANHDett9syLT0zdYMT1kW6gAaGT6fg3s96VnpPLqpfa79v4BEr49Cg/xUXZ4xFjQtrGM8av38M7cjOJhvf36sknKDx9wCU5APnSN3VE+f756UVT+LHU6yovlf0u/agJ222gdbyl5TMOl16DXVkwPFBq+zrz320JaWQV1nh/UR7XTj57UzOGZX5YXApFTNXptzocgc576szrHNehjHLkz2gFVlv3yjhJW6OlApEeTxsPErjo/bkHM/LGbjMuoeqX6Pk9KkIh2u6S67FbJVkciatu5MRHX7e7Q6y7qtT4xjdLYPZnUfsYHNO+ahx53ksxq/WH09DJtB7APcy+y2rIqTQ3QaBxqvYEeRmB90uKuKEFpigDdZxXTeR50aXYGln1B0+vwrVFlsFdHmjTmWDqd5d2JkrQ9NanshjxDYJGNRtDydlVeQeQAgJ7uBA93QFzrw0WN4T0Atopl6VVevYdZfID2/rOKZIlsDo0ecn2M7VKopm6i9QF0kXewTbUQcEYPzISmxXauBYAxhpNOWggJepPXfY+KMDRdkoSHwNgCzjpui3nYGqu/l+cReONdU8NJfdlFKVSSTuStgHBTHb4MK8BBGI9dAEalGhR9jVHvO5co7frEJcCmnL7xavTtVi+tCseJeMOySAuz53T1HJvM94hhCh4l1r3AHK2Ji+R/tL8CDABiF1iCco74dQAAAABJRU5ErkJggg==" width="35" height="35"  alt="Share to Twitter" data-pagespeed-url-hash="1344902499"></amp-img></a>
+    </div>
+    <div class="atclear"></div></div>
+    </div>
+    </div>
+    <div class="col-xs-6 col-sm-3 col-md-3 previous-btn"> <a href="/no-gym-no-diet-lose-weight-anyways/bid-5117" class="prev">Previous</a></div>
+    <div class="col-xs-6 col-sm-3 col-md-3 next-article"> <a href="/top-10-whey-proteins-in-india/bid-5091" class="next">Next</a></div>
+    </div>
+    </div>
+    </div>
+    <div class="col-xs-12 col-md-4 left-bar">
+    <div class="row two">
+    <span class="col-xs-12 product-stack-heading">
+    <div class="product-common-listing container-fluid row">
+    <h2 class="product-stack-heading related-article-heading">
+    <strong>RECOMMENDED PRODUCTS</strong>
+    </h2>
+    <div class="col-xs-6 col-md-12  recommend-prod pd-LR">
+    <div class="product-stack">
+    <a href="https://www.healthkart.com/sv/healthviva-pure-herbs-green-coffee-extract/SP-36969?navKey=VRNT-68495">
+    <div class="product-stack-image product-stack-img col-lg-6 col-md-6 col-sm-6">
+    <amp-img title="HealthViva Pure Herbs Green Coffee Extract" width="10px" height="10px" layout="responsive" alt="HealthViva Pure Herbs Green Coffee Extract" class="img-responsive" src="http://img1.hkrtcdn.com/ff/Green Coffee.jpg " data-pagespeed-url-hash="2751883076"></amp-img>
+    </div>
+    </a>
+    <div class="col-lg-6 col-md-6 col-sm-6 pd-N">
+    <a href="https://www.healthkart.com/sv/healthviva-pure-herbs-green-coffee-extract/SP-36969?navKey=VRNT-68495">
+    <span class="product-des product-desc">
+    HealthViva Pure Herbs Green Coffee Extract                        </span>
+    </a>
+    <div class="buy-now-btn">
+    <a class="article-btn" href="https://www.healthkart.com/sv/healthviva-pure-herbs-green-coffee-extract/SP-36969?navKey=VRNT-68495"> Buy now</a>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="col-xs-6 col-md-12  recommend-prod pd-LR">
+    <div class="product-stack">
+    <a href="https://www.healthkart.com/sv/healthkart-apple-cider-vinegar/SP-39874?navKey=VRNT-72770">
+    <div class="product-stack-image product-stack-img col-lg-6 col-md-6 col-sm-6">
+    <amp-img title="HealthKart Apple Cider Vinegar" width="10px" height="10px" layout="responsive" alt="HealthKart Apple Cider Vinegar" class="img-responsive" src="http://img1.hkrtcdn.com/ff/Apple Cidar Vinegar.jpg " data-pagespeed-url-hash="3701122791"></amp-img>
+    </div>
+    </a>
+    <div class="col-lg-6 col-md-6 col-sm-6 pd-N">
+    <a href="https://www.healthkart.com/sv/healthkart-apple-cider-vinegar/SP-39874?navKey=VRNT-72770">
+    <span class="product-des product-desc">
+    HealthKart Apple Cider Vinegar                        </span>
+    </a>
+    <div class="buy-now-btn">
+    <a class="article-btn" href="https://www.healthkart.com/sv/healthkart-apple-cider-vinegar/SP-39874?navKey=VRNT-72770"> Buy now</a>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>                                                </span></div>
+    <!-- Rendering template for most read and most recent widget-->
+    <div class="most-read-blk">
+    <ul class="tab most-read-tab">
+    <li class="active tab-list" data-id="most-read">
+    <strong>
+    </strong>
+    </li>
+    <li class="tab-list" data-id="most-recent">
+    <strong>
+    </strong>
+    </li>
+    </ul>
+    <div class="list-container">
+    <ul class="list">
+    <li class="most-read tab-dis" id="most-read">
+    <div class="view view-recent-blog-post view-id-recent_blog_post view-display-id-block_1 view-dom-id-a8d3d007e91f7b69b2bfddb6bed738d4">
+    <div class="view-content">
+    <div class="con-1">
+    <div class="text">
+    <a href="/six-pack-abs-diet-what-you-should-eat/bid-4193?itracker=bd-mRead" class="most-block" id="most-read-block">Six Pack Abs Diet- What You Should Eat</a></div>
+    <div class="person">
+    <span class="data person-name">By <span class="field-content"><span class="username">Puneet</span></span><span>
+    <span class="data person-date">Apr 6, 2016</span>
+    </span></span></div>
+    </div>
+    <div class="con-1">
+    <div class="text">
+    <a href="/26-ways-to-use-apple-cider-vinegar/bid-4255?itracker=bd-mRead" class="most-block" id="most-read-block">26 Ways to Use Apple Cider Vinegar</a></div>
+    <div class="person">
+    <span class="data person-name">By <span class="field-content"><span class="username">Puneet</span></span><span>
+    <span class="data person-date">Apr 20, 2016</span>
+    </span></span></div>
+    </div>
+    <div class="con-1">
+    <div class="text">
+    <a href="/reasons-you-are-not-gaining-muscles-no-gains-city/bid-4602?itracker=bd-mRead" class="most-block" id="most-read-block">Reasons you are not gaining muscles- No gains city! </a></div>
+    <div class="person">
+    <span class="data person-name">By <span class="field-content"><span class="username">Puneet</span></span><span>
+    <span class="data person-date">Jun 14, 2016</span>
+    </span></span></div>
+    </div>
+    <div class="con-1">
+    <div class="text">
+    <a href="/beginners-guide-to-a-bigger-chest-best-chest-workout/bid-4124?itracker=bd-mRead" class="most-block" id="most-read-block">Beginners Guide to a Bigger Chest- Best Chest Workout</a></div>
+    <div class="person">
+    <span class="data person-name">By <span class="field-content"><span class="username">Puneet</span></span><span>
+    <span class="data person-date">Mar 29, 2016</span>
+    </span></span></div>
+    </div>
+    </div>
+    </div>            </li>
+    <li class="most-recent tab-dis" id="most-recent">
+    <div class="view view-recent-blog-post view-id-recent_blog_post view-display-id-block view-dom-id-b009304060d492b1e04961a392622b24">
+    <div class="view-content">
+    <div class="con-1">
+    <div class="text">
+    <a href="/new-to-gym-learn-how-to-not-feel-lost/bid-5132?itracker=bd-mRec" class="most-block" id="most-recent-block">New To Gym? Learn How To Not Feel Lost</a></div>
+    <div class="person">
+    <span class="data person-name">By <span class="field-content"><span class="username">Latika</span></span><span>
+    <span class="data person-date">Sep 23, 2016</span>
+    </span></span></div>
+    </div>
+    <div class="con-1">
+    <div class="text">
+    <a href="/no-gym-no-diet-lose-weight-anyways/bid-5117?itracker=bd-mRec" class="most-block" id="most-recent-block">No Gym, No Diet: Lose Weight Anyways!</a></div>
+    <div class="person">
+    <span class="data person-name">By <span class="field-content"><span class="username">Latika</span></span><span>
+    <span class="data person-date">Sep 20, 2016</span>
+    </span></span></div>
+    </div>
+    <div class="con-1">
+    <div class="text">
+    <a href="/simple-exercises-you-can-do-at-work-to-stay-fit/bid-5098?itracker=bd-mRec" class="most-block" id="most-recent-block">Simple Exercises You Can Do At Work To Stay Fit</a></div>
+    <div class="person">
+    <span class="data person-name">By <span class="field-content"><span class="username">Saurabh</span></span><span>
+    <span class="data person-date">Sep 16, 2016</span>
+    </span></span></div>
+    </div>
+    <div class="con-1">
+    <div class="text">
+    <a href="/top-10-whey-proteins-in-india/bid-5091?itracker=bd-mRec" class="most-block" id="most-recent-block">Top 10 Whey Proteins in India</a></div>
+    <div class="person">
+    <span class="data person-name">By <span class="field-content"><span class="username">Saurabh</span></span><span>
+    <span class="data person-date">Sep 15, 2016</span>
+    </span></span></div>
+    </div>
+    </div>
+    </div>            </li>
+    </ul>
+    </div>
+    </div>                    <!-- Rendering template for newsletter-->
+    <div class="newsletter newsletter-margin-top">
+    <div class="">
+    <h2 class="product-stack-heading related-article-heading">
+    <strong>SUBSCRIBE TO NEWSLETTER</strong>
+    </h2>	</div>
+    </div>                               </div>
+    </div>
+    <div class="row">
+    <div class="col-xs-12">
+    <div class="recommended-articles similar-titile">
+    <div class="related-article-heading">
+    <span>
+    <strong>YOU MAY ALSO LIKE</strong>
+    </span>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="related-article row">
+    <div class="col-xs-12 col-sm-4 col-md-4 related-article-box paddingItems">
+    <div>
+    <a class="col-md-12 related-img" href="/10-best-weight-loss-tips/bid-4367?itracker=bd-rel">
+    <div class="similar-article-image">
+    <!--Weight loss isn't an easy monster to tackle. How to reduce weight and diet for weight loss are some of the most common questions asked.  Here's our top 10 best weight loss tips-->
+    <amp-img title="10 Best Weight Loss Tips" width="10px" height="10px" layout="responsive" alt="Simple&nbsp;Exercises&nbsp;You&nbsp;Can&nbsp;Do&nbsp;At&nbsp;Work&nbsp;To&nbsp;Stay&nbsp;Fit" class="img-responsive" src="http://connect.healthkart.com/sites/default/files/styles/hero_web_thumbnail/public/x15.jpg,qitok=HJRhChej.pagespeed.ic.y2Hbr3i-uu.webp" data-pagespeed-url-hash="1940972789"></amp-img>
+    </div>
+    </a>
+    <a class="col-md-12 pd-N" href="/10-best-weight-loss-tips/bid-4367?itracker=bd-rel">
+    <!--<a href="/10-best-weight-loss-tips/bid-4367?itracker=bd-rel">-->
+    <span class="text-similar-article text-img">
+    <span class="product-description">10 Best Weight Loss Tips</span>
+    </span>
+    <!--                                    </a>-->
+    </a>
+    </div>
+    <!--                        <a href="/10-best-weight-loss-tips/bid-4367?itracker=bd-rel"> Read More</a>-->
+    <div class="article-post-date">
+    <span class="article-writer-name">By <span class="writer-name"><a href="/users/puneet-1">Puneet</a></span></span>
+    <span class="article-date">May 3, 2016</span>
+    </div>
+    </div>
+    <div class="col-xs-12 col-sm-4 col-md-4 related-article-box paddingItems">
+    <div>
+    <a class="col-md-12 related-img" href="/5-yoga-asanas-to-help-you-lose-weight/bid-4500?itracker=bd-rel">
+    <div class="similar-article-image">
+    <!--“Yoga, an ancient Indian discipline also referred as a way of life, is known for its therapeutic properties over mind, body and soul. But do you know it can actually help in losing weight too? Let take a look at yoga for weight loss.”-->
+    <amp-img title="Yoga Asanas To Help You Lose Weight " width="10px" height="10px" layout="responsive" alt="Simple&nbsp;Exercises&nbsp;You&nbsp;Can&nbsp;Do&nbsp;At&nbsp;Work&nbsp;To&nbsp;Stay&nbsp;Fit" class="img-responsive" src="http://connect.healthkart.com/sites/default/files/styles/hero_web_thumbnail/public/xyoga_1.jpg,qitok=Zh-tC3N6.pagespeed.ic.t7JwdX5DXS.webp" data-pagespeed-url-hash="3969757510"></amp-img>
+    </div>
+    </a>
+    <a class="col-md-12 pd-N" href="/5-yoga-asanas-to-help-you-lose-weight/bid-4500?itracker=bd-rel">
+    <!--<a href="/5-yoga-asanas-to-help-you-lose-weight/bid-4500?itracker=bd-rel">-->
+    <span class="text-similar-article text-img">
+    <span class="product-description">5 Yoga Asanas To Help You Lose Weight </span>
+    </span>
+    <!--                                    </a>-->
+    </a>
+    </div>
+    <!--                        <a href="/5-yoga-asanas-to-help-you-lose-weight/bid-4500?itracker=bd-rel"> Read More</a>-->
+    <div class="article-post-date">
+    <span class="article-writer-name">By <span class="writer-name"><a href="/users/latika">Latika</a></span></span>
+    <span class="article-date">May 17, 2016</span>
+    </div>
+    </div>
+    <div class="col-xs-12 col-sm-4 col-md-4 related-article-box paddingItems">
+    <div>
+    <a class="col-md-12 related-img" href="/7-at-home-workouts-for-weight-loss/bid-4732?itracker=bd-rel">
+    <div class="similar-article-image">
+    <!--No denying that health weight loss can only be achieved with full body exercise routine and a balanced diet. But, do you really need to hit the gym for that? Not necessarily!-->
+    <amp-img title="7 At Home Workouts For Weight Loss" width="10px" height="20px" layout="responsive" alt="Simple&nbsp;Exercises&nbsp;You&nbsp;Can&nbsp;Do&nbsp;At&nbsp;Work&nbsp;To&nbsp;Stay&nbsp;Fit" class="img-responsive" src="http://connect.healthkart.com/sites/default/files/styles/hero_web_thumbnail/public/x7-at-home-workouts-for-WL-hero-images_1.jpg,qitok=VJoNcmNC.pagespeed.ic.-zD9hSFCFn.webp" data-pagespeed-url-hash="1701114065"></amp-img>
+    </div>
+    </a>
+    <a class="col-md-12 pd-N" href="/7-at-home-workouts-for-weight-loss/bid-4732?itracker=bd-rel">
+    <!--<a href="/7-at-home-workouts-for-weight-loss/bid-4732?itracker=bd-rel">-->
+    <span class="text-similar-article text-img">
+    <span class="product-description">7 At Home Workouts For Weight Loss</span>
+    </span>
+    <!--                                    </a>-->
+    </a>
+    </div>
+    <!--                        <a href="/7-at-home-workouts-for-weight-loss/bid-4732?itracker=bd-rel"> Read More</a>-->
+    <div class="article-post-date">
+    <span class="article-writer-name">By <span class="writer-name"><a href="/users/latika">Latika</a></span></span>
+    <span class="article-date">Jul 25, 2016</span>
+    </div>
+    </div>
+    </div>                            <div class="links">                        <div class="blg-comments">
+    <div class="comment-title no-comment-page">
+    <h3 class="title "><span><strong>COMMENTS</strong></span></h3>
+    <span class="new-comment"><a href="https://accounts.healthkart.com/auth/Login.action?pre=&amp;pageType=login&amp;redirectUrl=http%3A%2F%2Fconnect.healthkart.com%2Fnode%2F5098&amp;redirectSrc=http%3A%2F%2Fconnect.healthkart.com">Post Comment</a></span>
+    </div>
+    <div class="no-comment-available">No comments available</div>
+    </div>
+    </div>
+    </div>
+    <div class="nextReadWidget">
+    <div class="nrwHeader">Your Next Read <span class="nrwCloseBttn" id="nrwClose"></span></div>
+    <div>
+    <a href="/10-best-weight-loss-tips/bid-4367?itracker=nextRead" class="imgHolder"><amp-img title="10 Best Weight Loss Tips" alt="10 Best Weight Loss Tips" class="img-responsive" layout="responsive" height="20px" width="10px" src="data:image/webp;base64,UklGRjoIAABXRUJQVlA4IC4IAAAQMgCdASrLAKAAPtFao0uoJaMlMXXZwQAaCWUA1P0LMPLuf/g823VIhEm/j1mc2vAuepHCi31k1AqXKP+i3ojoCmyxZgOgKEagN9XgiCUXxHkHz5JY/ZoX8SZOFs22p5LoOVrabvJjAqiPAhxvFDb7FSTyF5mLNK0+PedGbK+Ew1BRL2kA7/4RAnJKonegoLu2gAhaEy/9H99KM8eA0fJPg8uyuH/RyxL2GMCCtpLYWHYB5UK1j4hUvoq6+cEW6vKumY1R77k8P5Uaeok8+FTzi3RcXkJujBMVCbcNGlX+06TXC10voy5J8PCTkIRuhZEtEpcrSuOLR6W0r1TgwJ38Lh+kn5TbNZdq2x/sZQOidr4wfZ1xeAWb+ICebgGwm64kiZP6AVGRkLvao/gI1DSz6h9Glsh4i6yQYLggvERTJDnDjZtylUUHSYdv3+r9piewPosvfHlWh/dKVUg8yQxbEGDKtXxtzr1n7ePTa4d8qju2qkkBrT4mezMAV8G46M43fdGgvo1S4MvSgK/4yWYRyYM18SaJkO4wANZsoL17/PxGkTPrNeaZkopWxH8JCQ9hMELxXJd88de7XA+LwAWAgxKydJw9URx31Sla2j5kyuLGlPMgdXiDDwJBas7KJclc6nnf23kkvBVvBskbq2aVKQa4kW6jrfVIvnrVJIWOpjUTmoMSaeIOWeuOHODYPJYKyGVTosG4hTLtTOigBtpGhqpWm/yVQyyKwbMj6T9rI1/zSQeo2ZnL1FnkFFk/q5GloBAwTGe4MN7pggmEGvJGef29T1ctpVUbReKWuO/YI9vCA2dt8QOXadQfYLGxmTQySVHgZC3KXS8eDQm2eSwlnT5x0NRnvsUsa6Pjbt0dXiiYpKr3FSQmu66hT68QUELQlFmXLez74jFKphA5IV1uyKbCy7qgqZbYp8kU0Ev4RJsTtiYjs2x0urTwWJmL+QPoTfmpAJ+gLxm6dKnfNJ9Z7mloeyZO65ULJPeLcLwzQIzXVv6Yap+5/wAW732qupagalGYljCk8T19X/367QNx8ei9BtS8jO2OGBr3IdDvOTQDizPcbpl1CQYQNbKDXYyU50x4zwLoG+xPrfGwy1NzOJr79/K6jTJNIBkpVjW6l+293PzL9LowrtfcyqR0B+DjZp4UVSMPHwTlZjqYMyPWwMWEn8kX0GUUgAGcvIFNyBuxeoe6vqqAksHMIjOEttf9QbkLzoDofK+ukaX+qkA3flSivbNIAWu8WAYriZUZHksoDazVVVa/u96elK5o568EIScTxEzrsU7F8jo2abXCvnqfTxjtHpmfpZ9cJAUE8NHAyXIRi/IybxjqEkzDfK/qilCmWE7kBseVcU41buB8zjSC5vLJy+2H6lRhKx9KU6sDJjD/0nPWS1KWSoFNQtmf4CcfyxsQvYwkA0wCmj3tR6BZSBggmOXqykwWbw3ZN9IA6Xws5WAl/GrTaUTRBV3slvQy9XeRjQPMqhg1s/AoUD/hbTac8tJUJUxc5AToJfuFgn7ZF6cakBbTMwOMmB/jn1Ik8FrR6u9LTUbjZrY7UWwnsOrlJZKd8iL9sqPHX1AD71f9IlsZqUmqdPQbFMlwdAkVXXUhtlTtUkJA8Y6+s8StO5PrQa5ycJm/eBfxduy7/t3Au/c5qELezz3/n5g+70+um1bB1rm70TwTgvX1bBPDOLBlTfdSvp5QCq0ZfqvHQkvoWJ8ZlLc/pYRoI4Pjjq7QZoqz4OQmPx14+WFSGYBZ6xvFxmtY0pR5ptwE836t/URueL6jrLFHh6m8QgM5XV9ZHc4UiG9bUjyV8nFh9gxI0werMvtEuzpWteHAOpS9UkjajC2KJmdDsOw3HLAMusgK71tNxHq1VR4kb7Wwd7UwptWcMk71nksORJ/+vNX93Kf/BKzaVMWazx1Na/Gvnd4s1Hd8yZ2NH5PtuJPnz/Ya0DVKSp/0o+3ffyJh096TBnW0+IRlcJy2zonRQ/fLdXaiHQSzKMkFFzWW9OAww90+V7026ySxY7rbjhZ91O5PjKl3Sr/QWrHl8L5dCIUYD6aiRbG+e4sHfHSsTlPdKuortlLr0MHAdvEn+R8BW3cP8JyHEtFkVKCmnuSDL3wmtVdGh1tXgHvhPvzbW8Z0aYuYKkTyJ28k79mzbMweUCGi1LTMGhMiBSf2xUrqnHKGi+HS7tHcr+Dp8b5R3zVjQkva1jjXQ8AMpgkaHocFCfHvA78L+FclHNgKUbhtjDBhUn1+azdVMQnuFZ/52ykVIxJwHI60sIf7O1R772W7gCF/l2vtdJdX2qEnyYX+SzZqbze9BOxUk37OG4CFLPlFpFI7mA6hg3Lv4OsLVSZhddbAhFeg8JfxcnqRPUoFf8314KydiozZKPY2MwpVn71CmPn6z5/voO+87IS/GfD/BCWSctQ6BFZOXbfE9MbhsJqi3Sn5Ic4gZqeqWjrTFdMcS3vEpvk42PA5ZNoh9ePrRgwpo896obsmZpGIJNZErYoWVApmCvVyoOrPDjdygjqwMWfgH8IUWZgqqfIHw1RalSNgfWDX0jeD0W1crwWy2amVDHSunjNFEC4SyVP5xjuoo4xIwv16jMQwC5V0ufG8FP8eNm+B8Iev1FHHkTg1qW/fBboVtmYvcUazgl7ylDp7hrZ2Q7TWlueByj1qXBJWIUKTnSRan8KrLRZx/cClQcMHs423I84doDqwvUWZnLnysV7v1iwnhsBVZ+1/UEm15aFqEz7Wa6QbGLVenD4aw1+MuOppcgHD1eCpr7VIuruQvDY4S6SUGom6LUcAAAA=" data-pagespeed-url-hash="838652488"> </amp-img></a>
+    <div class="nrwPostTitleBox">
+    <a href="/10-best-weight-loss-tips/bid-4367?itracker=nextRead" class="nrwPostTitle">10 Best Weight Loss Tips</a>
+    <div class="nrwPostInfo">
+    By <a href="/user/Puneet" class="userName">Puneet </a>
+    <span class="article-date">
+    May 3, 2016						</span>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>  </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div><div id="_atssh">
+    <div class="aaqForm">
+    <div class="aaqOverlayForm">
+    <div class="aaqFormCloseBtn">
+    <svg fill="#999" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
+    </svg>
+    </div>
+    <h1>Ask your question</h1>	</div>
+    </div>
+    <div class="aaqMask"></div>
+    <div class="footer">
+    <div class="inn">
+    <div class="left">
+    </div>
+    <div class="center">
+    <div class="region region-footer-middle">
+    <div id="block-block-2" class="block block-block">
+    <p>COPYRIGHT © 2015-2016, HEALTHKART.COM, OR ITS AFFILIATES (<a href="https://www.healthkart.com/hk/TermsConditions.action">Terms &amp; Conditions</a>)</p>
+    <p><strong>Disclaimer:</strong>The information contained on HealthKart (www.healthkart.com or subdomains) is provided for informational purposes only and is not meant to substitute for the advice provided by your doctor or other health care professional. Information and statements regarding products, supplements, programs etc listed on HealthKart have not been evaluated by the Food and Drug Administration or any government authority and are not intended to diagnose, treat, cure, or prevent any disease. Please read product packaging carefully prior to purchase and use.The results from the products will vary from person to person. No individual result should be seen as typical.</p>
+    <p>&nbsp;</p>
+    </div>  </div>
+    </div>
+    <div class="right">
+    <div class="copy">
+    </div>
+    </div>
+    </div>
+    </div>
+    </body>
+    </html>
